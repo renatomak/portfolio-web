@@ -14,7 +14,7 @@ function Header() {
           <Link to="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link to="/curriculo">Currículo</Link>
+          <Link to="/Curriculum">Currículo</Link>
         </li>
         <li>
           <Link to="/contato">Contato</Link>

@@ -22,7 +22,7 @@ import {
   HardSkills,
 } from "./styled";
 
-function Curriculo() {
+function Curriculum() {
   return (
     <CContainer className="main">
       <Caminho page="Currículo" />
@@ -268,4 +268,4 @@ function Curriculo() {
   );
 }
 
-export default Curriculo;
+export default Curriculum;
