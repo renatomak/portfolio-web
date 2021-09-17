@@ -22,10 +22,11 @@ import {
   HardSkills,
 } from "./styled";
 
+
 function Curriculum() {
   return (
     <CContainer className="main">
-      <Caminho page="Currículo" />
+      <Caminho page="Curriculum" />
 
       <CurrHeader>
         <img
@@ -39,9 +40,7 @@ function Curriculum() {
             Renato <br /> <span>Marques da Silva</span>
           </p>
 
-          <h3>
-            Desenvolvedor Web <br /> Front-end | HTML | CSS | React
-          </h3>
+
         </CurrHeaderDados>
       </CurrHeader>
 
