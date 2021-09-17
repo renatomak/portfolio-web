@@ -1,11 +1,6 @@
 # Protifolio Web
 
 [![Licença][licenca-shield]][licenca-url]
-<<<<<<< HEAD
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-=======
->>>>>>> f96c5198e965788303912b6cdc9b81dff533f574
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 # Sobre o projeto
