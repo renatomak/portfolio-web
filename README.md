@@ -1,11 +1,11 @@
-# Protifolio Web
+# Portfolio Web
 
 [![Licença][licenca-shield]][licenca-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 # Sobre o projeto
 
-O Protifolio Web para publicação de projetos e consulta de curriculo.
+O Portfolio Web para publicação de projetos e consulta de curriculo.
 
 # Tecnologias utilizadas
 
@@ -16,7 +16,7 @@ O Protifolio Web para publicação de projetos e consulta de curriculo.
 
 # Acesso
 
-[Portifólio Web](https://renatomak.github.io/)
+[Portifólio Web](https://renatomarques-portfolioweb.netlify.app/)
 
 ## Autor
 [Renato Marques](https://www.linkedin.com/in/renatomarques-dev-web/)
