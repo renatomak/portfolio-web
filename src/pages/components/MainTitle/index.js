@@ -3,7 +3,7 @@ import { Container, Describe } from './styled'
 export const MainTitle = (props) => {
     const { image } = props;
     return (
-    <Container>
+    <Container className="main-title">
         <div className="profile-pic">
             <img src={image} alt="Foto de Renato Marques" width="300px" />
         </div>
