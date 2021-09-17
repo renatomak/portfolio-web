@@ -8,7 +8,7 @@ import { ContainerCards, PContainer } from "./styled";
 function Portfolio() {
   return (
     <PContainer>
-      <Caminho page="Portfolio" />
+      <Caminho page="Projetos" />
       <ContainerCards className="main">
         {data.map((item) => (
           <Card item={item} />

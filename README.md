@@ -16,7 +16,7 @@ O Portfolio Web para publicação de projetos e consulta de curriculo.
 
 # Acesso
 
-[Portifólio Web](https://renatomarques-portfolioweb.netlify.app/)
+[Portfólio Web](https://renatomarques-portfolioweb.netlify.app/)
 
 ## Autor
 [Renato Marques](https://www.linkedin.com/in/renatomarques-dev-web/)
