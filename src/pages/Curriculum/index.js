@@ -1,108 +1,26 @@
 import React from 'react';
-import Caminho from '../components/Caminho';
 import LinkVoltar from '../components/LinkVoltar';
-import { AiOutlineMail } from 'react-icons/ai';
-import { FaPhoneAlt } from 'react-icons/fa';
-import { ImLocation2 } from 'react-icons/im';
+import image from '../../img/renato02.jpg';
 
 import {
-  CContainer,
-  CurrHeader,
-  AboutMe,
-  Text,
-  Contact,
-  Software,
-  ProgrammingLanguages,
+  Container,
   ExperienciaProfissional,
   Education,
   CardContainer,
   CardLeft,
   CardRight,
-  HardSkills,
 } from './styled';
 import { MainTitle } from '../components/MainTitle';
+import AboutMe from './AboutMe';
+import HardSkills from './HardSkills';
 
 function Curriculum() {
   return (
-    <CContainer className="main">
-      <CurrHeader>
-        <img
-          className="cv-pic"
-          src="/images/renato-quadrado.jpg"
-          alt="Foto de Renato Marques"
-          width="300px"
-        />
-        <MainTitle />
-      </CurrHeader>
-
-      <AboutMe>
-        <Contact>
-          <p>
-            {' '}
-            <AiOutlineMail /> renato.mark.silva@gmail.com
-          </p>
-          <p>
-            <FaPhoneAlt /> (062) 9 9464-4482
-          </p>
-          <a
-            href="https://goo.gl/maps/cYzaYk4qyutiyym26"
-            alt="Minha localização"
-          >
-            {' '}
-            <ImLocation2 /> Goiânia-GO, Brasil
-          </a>
-          <p>Idiomas: Português (Nativo)</p>
-          <p>DN: 24/05/1981</p>
-        </Contact>
-
-        <Text>
-          <h2 className="title">Sobre Mim</h2>
-          <hr />
-          <p>
-            Com experiências anteriores, descobri que gosto de lidar com pessoas
-            e ajudá-las a resolver problemas. Descobri na programação essa
-            oportunidade e hoje, como Desenvolvedor Web, tenho o objetivo de
-            produzir códigos cada vez melhores e com maior velocidade. Nos
-            últimos meses executei projetos utilizando: HTML, CSS, JavaScript,
-            React, NodeJS, MySQL, MongoDB, socketIO, Python, entre outras.
-          </p>
-        </Text>
-      </AboutMe>
-
-      <HardSkills>
-        <Software>
-          <h2 className="title">Habilidades </h2>
-          <hr />
-          <ul>
-            <li>Excel</li>
-            <li>Word</li>
-            <li>PowerPoint</li>
-            <li>Workbench</li>
-            <li>Gimp</li>
-            <li>Linux</li>
-            <li>Git</li>
-            <li>Trello</li>
-            <li>pgAdmin4</li>
-          </ul>
-        </Software>
-
-        <ProgrammingLanguages>
-          <h2 className="title">Linguagens </h2>
-          <hr />
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>NodeJS</li>
-            <li>PostgreSQL</li>
-            <li>SQL</li>
-            <li>MongoDB</li>
-            <li>Python</li>
-            <li>Java</li>
-          </ul>
-        </ProgrammingLanguages>
-      </HardSkills>
+    <Container className="main">
+      <MainTitle image={image}/>
+      <AboutMe />
+      <HardSkills />
+        
 
       <ExperienciaProfissional>
         <h2 className="title">Experiência de Trabalho</h2>
@@ -264,7 +182,7 @@ function Curriculum() {
       </Education>
 
       <LinkVoltar />
-    </CContainer>
+    </Container>
   );
 }
 

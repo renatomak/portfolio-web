@@ -5,11 +5,11 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import Header from './pages/components/Header';
-import Contato from './pages/Contato';
 import Curriculum from './pages/Curriculum';
 import Portfolio from './pages/Portfolio';
 import GlobalStyle, { MainContainer } from './styleGlobal';
 import './colors.css';
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <MainContainer>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route path='/contato' component={Contato} />
+        <Route path='/contact' component={Contact} />
         <Route path='/Curriculum' component={Curriculum} />
         <Route path='/portfolio' component={Portfolio} />
       </Switch>

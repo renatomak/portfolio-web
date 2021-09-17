@@ -14,10 +14,10 @@ function Header() {
           <Link to="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <Link to="/Curriculum">Curriculum</Link>
+          <Link to="/curriculum">Curriculum</Link>
         </li>
         <li>
-          <Link to="/contato">Contato</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </Navigation>

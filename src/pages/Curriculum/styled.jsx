@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CContainer = styled.div`
+export const Container = styled.div`
   line-height: 50px;
 
   animation-name: conteudo;
@@ -17,28 +17,9 @@ export const CContainer = styled.div`
     }
   }
 `;
-
-export const CurrHeader = styled.div`
-  display: flex;
-  justify-content: space-around;
-  img {
-    border-radius: 100%;
-  }
-`;
-
-export const Contact = styled.div`
-  width: 30%;
-  margin-top: 40px;
-`;
-
 export const Text = styled.div`
   width: 70%;
   text-align: justify;
-`;
-export const AboutMe = styled.div`
-  display: flex;
-  width: 100%;
-  line-height: 40px;
 `;
 
 export const HardSkills = styled.div`

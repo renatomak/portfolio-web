@@ -1,18 +1,8 @@
 import React from "react";
-import renatoProfile from '../../img/renato-profile2.jpg';
+import renatoProfile from '../../img/renato01.jpg';
 import { MainTitle } from "../components/MainTitle";
-import { Container} from './styled';
 
-function Home() {
-  return (
-    <Container>
-      <div className="profile-pic">
-        <img src={ renatoProfile } alt="Foto de Renato Marques" width="300px" />
-      </div>
+const Home= ()=> (<MainTitle image={renatoProfile}/>);
 
-      <MainTitle />
-    </Container>
-  );
-}
 
 export default Home;
