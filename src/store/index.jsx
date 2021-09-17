@@ -1,4 +1,4 @@
-const data = [
+export const projects = [
   {
     id: 1,
     title: `Quitandas Online`,
@@ -41,7 +41,7 @@ const data = [
   },
 ];
 
-const ability = [
+export const abilities = [
   'Excel',
   'Word',
   'PowerPoint',
@@ -52,7 +52,7 @@ const ability = [
   'Trello',
   'pgAdmin4',
 ];
-const languages = [
+export const languages = [
   'HTML',
   'CSS',
   'JavaScript',
@@ -64,5 +64,3 @@ const languages = [
   'Python',
   'Java',
 ];
-
-export default data;

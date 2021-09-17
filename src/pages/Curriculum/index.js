@@ -17,10 +17,9 @@ import HardSkills from './HardSkills';
 function Curriculum() {
   return (
     <Container className="main">
-      <MainTitle image={image}/>
+      <MainTitle image={image} />
       <AboutMe />
       <HardSkills />
-        
 
       <ExperienciaProfissional>
         <h2 className="title">Experiência de Trabalho</h2>
@@ -38,7 +37,7 @@ function Curriculum() {
             <article>
               Prestando auxílio direto à Diretoria Administrativa da
               instituição. Sendo responsável, principalmente por:
-            </article>
+            
 
             <ul>
               <li>Atendimento ao público interno da unidade;</li>
@@ -49,6 +48,7 @@ function Curriculum() {
                 pareceres em processos, entre outros.
               </li>
             </ul>
+            </article>
           </CardRight>
         </CardContainer>
 
@@ -64,16 +64,17 @@ function Curriculum() {
               {' '}
               Assistente Administrativo/Auxiliar de Farmácia{' '}
             </p>
-
-            <p>
-              Responsável por receber e distribuir medicamentos e insumos. Sendo
-              responsável, principalmente por:
-            </p>
-            <ul>
-              <li>Atendimento aos pacientes internos e externos;</li>
-              <li>Controle de estoque;</li>
-              <li>Recebimento de medicamentos e insumos.</li>
-            </ul>
+            <article>
+              <p>
+                Responsável por receber e distribuir medicamentos e insumos.
+                Sendo responsável, principalmente por:
+              </p>
+              <ul>
+                <li>Atendimento aos pacientes internos e externos;</li>
+                <li>Controle de estoque;</li>
+                <li>Recebimento de medicamentos e insumos.</li>
+              </ul>
+            </article>
           </CardRight>
         </CardContainer>
 
@@ -87,27 +88,23 @@ function Curriculum() {
             <h3>Atento Brasil </h3>
 
             <p className="funcao">Call Center </p>
-
-            <p>Atendimento receptivo ao Cliente da operadora Vivo.</p>
-            <ul>
-              <li>
-                Resolução de problemas diversos nas linhas de telefone dos
-                clientes;
-              </li>
-              <li>Oferta de produtos sugeridos para as linhas.</li>
-            </ul>
+            <article>
+              <p>Atendimento receptivo ao Cliente da operadora Vivo.</p>
+              <ul>
+                <li>
+                  Resolução de problemas diversos nas linhas de telefone dos
+                  clientes;
+                </li>
+                <li>Oferta de produtos sugeridos para as linhas.</li>
+              </ul>
+            </article>
           </CardRight>
         </CardContainer>
 
-        <CardContainer>
-          <CardLeft></CardLeft>
-
-          <CardRight></CardRight>
-        </CardContainer>
       </ExperienciaProfissional>
 
       <Education>
-        <h2>Formação acadêmica</h2>
+        <h2 className="title">Formação acadêmica</h2>
         <hr />
 
         <CardContainer>

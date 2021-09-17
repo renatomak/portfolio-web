@@ -16,6 +16,12 @@ export const Container = styled.div`
       transform: translate(0px, 0px);
     }
   }
+  .title {
+    color: var(--orange);
+  }
+  article {
+    color: var(--white);
+  }
 `;
 export const Text = styled.div`
   width: 70%;

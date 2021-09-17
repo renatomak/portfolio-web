@@ -23,7 +23,6 @@ function App() {
         <Route path='/Curriculum' component={Curriculum} />
         <Route path='/portfolio' component={Portfolio} />
       </Switch>
-              
       </MainContainer>
     </Router>
   );
