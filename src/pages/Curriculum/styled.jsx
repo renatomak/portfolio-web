@@ -6,10 +6,6 @@ export const CContainer = styled.div`
   animation-name: conteudo;
   animation-duration: 2s;
 
-  h2 {
-    color: var(--orangeLite2);
-  }
-
   @keyframes conteudo {
     0% {
       opacity: 0;
@@ -27,37 +23,6 @@ export const CurrHeader = styled.div`
   justify-content: space-around;
   img {
     border-radius: 100%;
-  }
-`;
-
-export const CurrHeaderDados = styled.div`
-  font-weight: 400;
-
-  h1 {
-    font-weight: 300;
-    margin-bottom: 10px;
-  }
-
-  h3 {
-    font-size: 3rem;
-    margin-top: 30px;
-    font-weight: 300;
-  }
-
-  p {
-    font-size: 4rem;
-    text-transform: uppercase;
-    line-height: 60px;
-  }
-
-  .birth-date {
-    font-size: 0.8rem;
-    text-transform: none;
-    line-height: 30px;
-  }
-
-  span {
-    color: var(--orange);
   }
 `;
 

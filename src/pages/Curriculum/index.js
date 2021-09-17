@@ -1,14 +1,13 @@
-import React from "react";
-import Caminho from "../components/Caminho";
-import LinkVoltar from "../components/LinkVoltar";
-import { AiOutlineMail } from "react-icons/ai";
-import { FaPhoneAlt } from "react-icons/fa";
-import { ImLocation2 } from "react-icons/im";
+import React from 'react';
+import Caminho from '../components/Caminho';
+import LinkVoltar from '../components/LinkVoltar';
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaPhoneAlt } from 'react-icons/fa';
+import { ImLocation2 } from 'react-icons/im';
 
 import {
   CContainer,
   CurrHeader,
-  CurrHeaderDados,
   AboutMe,
   Text,
   Contact,
@@ -20,34 +19,26 @@ import {
   CardLeft,
   CardRight,
   HardSkills,
-} from "./styled";
-
+} from './styled';
+import { MainTitle } from '../components/MainTitle';
 
 function Curriculum() {
   return (
     <CContainer className="main">
-      <Caminho page="Curriculum" />
-
       <CurrHeader>
         <img
           className="cv-pic"
           src="/images/renato-quadrado.jpg"
           alt="Foto de Renato Marques"
+          width="300px"
         />
-
-        <CurrHeaderDados>
-          <p>
-            Renato <br /> <span>Marques da Silva</span>
-          </p>
-
-
-        </CurrHeaderDados>
+        <MainTitle />
       </CurrHeader>
 
       <AboutMe>
         <Contact>
           <p>
-            {" "}
+            {' '}
             <AiOutlineMail /> renato.mark.silva@gmail.com
           </p>
           <p>
@@ -57,7 +48,7 @@ function Curriculum() {
             href="https://goo.gl/maps/cYzaYk4qyutiyym26"
             alt="Minha localização"
           >
-            {" "}
+            {' '}
             <ImLocation2 /> Goiânia-GO, Brasil
           </a>
           <p>Idiomas: Português (Nativo)</p>
@@ -68,14 +59,19 @@ function Curriculum() {
           <h2 className="title">Sobre Mim</h2>
           <hr />
           <p>
-          Com experiências anteriores, descobri que gosto de lidar com pessoas e ajudá-las a resolver problemas. Descobri na programação essa oportunidade e hoje, como Desenvolvedor Web, tenho o objetivo de produzir códigos cada vez melhores e com maior velocidade. Nos últimos meses executei projetos utilizando: HTML, CSS, JavaScript, React, NodeJS, MySQL, MongoDB, socketIO, Python, entre outras.
+            Com experiências anteriores, descobri que gosto de lidar com pessoas
+            e ajudá-las a resolver problemas. Descobri na programação essa
+            oportunidade e hoje, como Desenvolvedor Web, tenho o objetivo de
+            produzir códigos cada vez melhores e com maior velocidade. Nos
+            últimos meses executei projetos utilizando: HTML, CSS, JavaScript,
+            React, NodeJS, MySQL, MongoDB, socketIO, Python, entre outras.
           </p>
         </Text>
       </AboutMe>
 
       <HardSkills>
         <Software>
-          <h2 className="title">Softwares </h2>
+          <h2 className="title">Habilidades </h2>
           <hr />
           <ul>
             <li>Excel</li>
@@ -83,6 +79,10 @@ function Curriculum() {
             <li>PowerPoint</li>
             <li>Workbench</li>
             <li>Gimp</li>
+            <li>Linux</li>
+            <li>Git</li>
+            <li>Trello</li>
+            <li>pgAdmin4</li>
           </ul>
         </Software>
 
@@ -98,6 +98,7 @@ function Curriculum() {
             <li>PostgreSQL</li>
             <li>SQL</li>
             <li>MongoDB</li>
+            <li>Python</li>
             <li>Java</li>
           </ul>
         </ProgrammingLanguages>
@@ -142,8 +143,8 @@ function Curriculum() {
           <CardRight>
             <h3>Maternidade Nascer Cidadão/SMS </h3>
             <p className="funcao">
-              {" "}
-              Assistente Administrativo/Auxiliar de Farmácia{" "}
+              {' '}
+              Assistente Administrativo/Auxiliar de Farmácia{' '}
             </p>
 
             <p>
