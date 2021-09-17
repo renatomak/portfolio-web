@@ -7,17 +7,6 @@
 
 O Protifolio Web para publicação de projetos e consulta de curriculo.
 
-<!-- ## Layout
-
-![Login](https://github.com/renatomak/trybeer/blob/master/assets/login.png)
-![Checkout](https://github.com/renatomak/trybeer/blob/master/assets/checkout.png)
-![Produtos](https://github.com/renatomak/trybeer/blob/master/assets/produtos.png)
-![Entregue](https://github.com/renatomak/trybeer/blob/master/assets/detalhes-pedido-entregue.png)
-
-## Modelo inicial das Telas
-
-[Figma](https://www.figma.com/file/tzP4txu6Uy0qCxVZWdWMBO/TryBeer?node-id=0%3A1) -->
-
 # Tecnologias utilizadas
 
 - HTML / CSS / JS
