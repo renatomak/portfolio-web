@@ -17,10 +17,11 @@ import HardSkills from './HardSkills';
 function Curriculum() {
   return (
     <Container className="main">
-      <MainTitle image={image} />
+      <MainTitle image={image} marginTop="curriculum"/>
       <AboutMe />
       <HardSkills />
-
+      
+      {/* TODO: Refatorar a partir deste ponto  */}
       <ExperienciaProfissional>
         <h2 className="title">Experiência de Trabalho</h2>
         <hr />

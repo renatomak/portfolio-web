@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 8rem;
   img {
     border-radius: 100%;
     margin-right: 30px;

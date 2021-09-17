@@ -1,9 +1,9 @@
 import { Container, Describe } from './styled'
 
 export const MainTitle = (props) => {
-    const { image } = props;
+    const { image, marginTop } = props;
     return (
-    <Container className="main-title">
+    <Container className={`main-title ${marginTop}`} >
         <div className="profile-pic">
             <img src={image} alt="Foto de Renato Marques" width="300px" />
         </div>

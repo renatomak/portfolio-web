@@ -17,6 +17,13 @@ export const MainContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
 
+  .home {
+    margin-top: 8rem;
+  }
+  .curriculum {
+    margin-top: 1rem;
+  }
+
   @media (max-width: 600px) {
     .main-title {
       flex-direction: column;
