@@ -1,6 +1,6 @@
 import React from "react";
 import LinkVoltar from "../components/LinkVoltar";
-import data from "./data";
+import {projects} from "../../store";
 import Card from "../components/Card";
 import { ContainerCards, PContainer } from "./styled";
 
@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <PContainer>
       <ContainerCards className="main">
-        {data.map((item) => (
+        {projects.map((item) => (
           <Card item={item} />
         ))}
         <br />

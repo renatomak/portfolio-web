@@ -13,6 +13,9 @@ export const Container = styled.div`
     margin-left: 50px;
     line-height: 30px;
   }
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 export const Software = styled.div`

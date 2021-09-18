@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Navigation, Hamburger } from './styled';
 import './styles.css';
 
 function Header() {
@@ -12,7 +11,7 @@ function Header() {
   };
   return (
     <header id="header">
-      <a id="logo" href="">
+      <a id="logo" href="/">
         {/* Logo */}
       </a>
       <nav id="nav" className={nameClass}>

@@ -8,21 +8,25 @@ const HardSkills = () => {
       <Software>
         <h2 className="title">Habilidades </h2>
         <hr />
-        <ul>
-          {abilities.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
+        <article>
+          <ul>
+            {abilities.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </article>
       </Software>
 
       <ProgrammingLanguages>
         <h2 className="title">Linguagens </h2>
         <hr />
-        <ul>
-          {languages.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
+        <article>
+          <ul>
+            {languages.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </article>
       </ProgrammingLanguages>
     </Container>
   );

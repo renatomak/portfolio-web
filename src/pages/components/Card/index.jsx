@@ -8,11 +8,11 @@ function Card(props) {
     <div class="flip-container">
       <div class="flipper">
         <div class="front">
-          <img src={imageFront} id="front" />
+          <img src={imageFront} id="front" alt="front page"/>
         </div>
-        <a href={moreInfo} target="_blank">
+        <a href={moreInfo} rel="noreferrer" target="_blank" >
           <div class="back">
-            <img src={imageBack} id="back" />
+            <img src={imageBack} id="back" alt="back page"/>
             <div className="text-houver">
               <h1>{title}</h1>
               <h2>{subtitle}</h2>
