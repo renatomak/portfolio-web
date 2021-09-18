@@ -29,7 +29,7 @@ export const projects = [
     subtitle: 'Página estática',
     imageFront: '/images/electrum-front.png',
     imageBack: '/images/electrum-back.png',
-    moreInfo: 'https://github.com/renatomak/projeto-electrum',
+    moreInfo: 'https://e-lectrum.netlify.app/',
   },
   {
     id: 5,
