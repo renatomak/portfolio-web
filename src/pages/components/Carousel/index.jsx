@@ -23,7 +23,7 @@ const index = (props) => {
           <div className="flipper">
             <img src={item.imgPath} alt="imagem da aplicação" />
           </div>
-          <div className="text-houver">
+          <div className="text-hover">
             <h1>{item.title}</h1>
             <h2>{item.subtitle}</h2>
             <a href={item.moreInfo} rel="noreferrer" target="_blank">
