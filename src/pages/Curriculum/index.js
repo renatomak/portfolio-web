@@ -1,6 +1,6 @@
 import React from 'react';
 import LinkVoltar from '../components/LinkVoltar';
-import image from '../../img/renato02.jpg';
+
 
 import {
   Container
@@ -14,7 +14,7 @@ import { experience, formation, education } from '../../store';
 function Curriculum() {
   return (
     <Container className="main">
-      <MainTitle image={image} marginTop="curriculum" />
+      <MainTitle image={'/images/renato02.jpg'} marginTop="curriculum" />
       <AboutMe />
       <HardSkills />
       
