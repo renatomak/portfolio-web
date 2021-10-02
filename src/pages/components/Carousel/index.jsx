@@ -1,6 +1,5 @@
 import React from 'react';
 import './materialize.css';
-import './card.css';
 import { Carousel } from 'react-materialize';
 
 const index = (props) => {
