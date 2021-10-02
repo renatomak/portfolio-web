@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const Nav = styled.nav`
+
+`;
+
 export const Navigation = styled.div`
   background-color: var(--navBackground);
   color: var(--white);
