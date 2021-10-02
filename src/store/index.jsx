@@ -34,6 +34,13 @@ export const projects = [
     imgPath: '/images/online-store.png',
     moreInfo: 'https://github.com/renatomak/online-store',
   },
+  {
+    id: 6,
+    title: `Monty Hall`,
+    subtitle: 'Jogo: Porta Premiada',
+    imgPath: '/images/monty-hall.png',
+    moreInfo: 'https://portapremiada.netlify.app/',
+  },
 ];
 
 export const abilities = [
