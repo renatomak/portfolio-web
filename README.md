@@ -5,7 +5,9 @@
 
 # Sobre o projeto
 
-O Portfolio Web para publicação de projetos e consulta de curriculo.
+Esta aplicação web foi construída com o objetivo principal de aplicar ferramentas como HTML, CSS, javascript, React e styled components.
+Nesta página, intitulada "Portfolio Web”, você encontrará informações relacionadas aos projetos em que trabalhei, meu curriculum e formas de contato. 
+
 
 # Tecnologias utilizadas
 
