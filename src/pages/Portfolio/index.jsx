@@ -1,18 +1,15 @@
-import React from "react";
-import LinkVoltar from "../components/LinkVoltar";
-import {projects} from "../../store";
-import Carousel from '../components/Carousel';
-import { ContainerCards, PContainer } from "./styled";
+import React from 'react';
+import LinkVoltar from '../components/LinkVoltar';
+import { projects } from '../../store';
+import Carousel from './Carousel';
+import { Container } from './styled';
 
 function Portfolio() {
   return (
-    <PContainer>
-      <ContainerCards className="main carousel">
-        <Carousel projects={projects}/>
-        <br />
-      </ContainerCards>
+    <Container>
+      <Carousel projects={projects} />
       <LinkVoltar />
-    </PContainer>
+    </Container>
   );
 }
 
