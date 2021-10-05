@@ -28,11 +28,11 @@ export const MainContainer = styled.div`
     .main-title {
       flex-direction: column;
     }
-    .profile-pic {
+    .profile-picture {
       display: flex;
       justify-content: center;
     }
-    .profile-pic img {
+    .profile-picture img {
       width: 150px;
     }
     .main-title h1 {

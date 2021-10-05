@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   justify-content: center;
+
   img {
     border-radius: 100%;
     margin-right: 30px;
@@ -11,17 +12,16 @@ export const Container = styled.div`
   }
 
   @keyframes photograph {
-  0% {
-    opacity: 0;
-    transform: translate(0px, 20px);
+    0% {
+      opacity: 0;
+      transform: translate(0px, 20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0px, 0px);
+    }
   }
-  100% {
-    opacity: 1;
-    transform: translate(0px, 0px);
-  }
-}
 `;
-
 
 export const Describe = styled.div`
   display: flex;
@@ -32,7 +32,8 @@ export const Describe = styled.div`
   animation-name: main-title;
   animation-duration: 2s;
 
-  h1, h2 {
+  h1,
+  h2 {
     text-transform: uppercase;
   }
   h1 {

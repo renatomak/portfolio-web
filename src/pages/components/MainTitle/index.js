@@ -4,8 +4,8 @@ export const MainTitle = (props) => {
     const { image, marginTop } = props;
     return (
     <Container className={`main-title ${marginTop}`} >
-        <div className="profile-pic">
-            <img src={image} alt="Foto de Renato Marques" width="300px" />
+        <div className="profile-picture">
+            <img src={image} alt="Foto Renato Marques" width="300px" />
         </div>
         <Describe>
             <h1>Desenvolvedor Web</h1>
