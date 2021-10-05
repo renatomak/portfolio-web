@@ -1,7 +1,7 @@
 # Portfolio Web
 
-[![Licença][licenca-shield]][licenca-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/renatomak/monty-hall/blob/main/LICENSE)
+
 
 # Sobre o projeto
 
@@ -11,21 +11,27 @@ Nesta página, intitulada "Portfolio Web”, você encontrará informações rel
 
 # Tecnologias utilizadas
 
-- HTML / CSS / JS
-- ReactJS
-- styled-components
+- HTML;
+- CSS;
+- JavaScript;
+- ReactJS;
+- styled-components.
+
+# Layouts
+
+<div  align="center">
+  <img alt="layout" title="#layout Home" src="public/images/layouts/home.png" height="350"/><br />
+  <img alt="layout" title="#layout curriculum" src="public/images/layouts/curriculum.png" height="350"/>
+  <img alt="layout" title="#layout portfolio" src="public/images/layouts/potfolio.png" height="350" />
+</div>
 
 
-# Acesso
+# Acesse a aplicação no linke abaixo
 
 [Portfólio Web](https://renatomarques-portfolioweb.netlify.app/)
+
 
 ## Autor
 [Renato Marques](https://www.linkedin.com/in/renatomarques-dev-web/)
 
 
-[licenca-shield]: https://img.shields.io/github/license/renatomak/trybeer?style=for-the-badge
-[licenca-url]: (https://github.com/renatomak/trybeer/blob/master/LICENSE)
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/renatomarques-dev-web/
-[product-screenshot]: images/screenshot.png
