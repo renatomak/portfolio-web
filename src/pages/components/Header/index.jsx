@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 
 function Header() {
+  const menuList = [
+    { id: 1, to: '/', name: 'Home' },
+    { id: 2, to: '/portfolio', name: 'Portfolio' },
+    { id: 3, to: '/curriculum', name: 'Curriculum' },
+    { id: 4, to: '/contact', name: 'Contact' },
+  ];
   const [nameClass, setNameClass] = useState('');
 
   const handleClick = () => {
@@ -20,26 +26,13 @@ function Header() {
           <span id="hamburger"></span>
         </button>
         <ul id="menu">
-          <li>
-            <Link to="/" onClick={handleClick}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/portfolio" onClick={handleClick}>
-              Portfolio
-            </Link>
-          </li>
-          <li>
-            <Link to="/curriculum" onClick={handleClick}>
-              Curriculum
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" onClick={handleClick}>
-              Contact
-            </Link>
-          </li>
+          {menuList.map(({ id, to, name }) => (
+            <li key={id}>
+              <Link to={to} onClick={handleClick}>
+                {name}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
