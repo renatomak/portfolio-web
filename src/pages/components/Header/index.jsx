@@ -22,9 +22,9 @@ function Header() {
         {/* Logo */}
       </a>
       <nav id="nav" className={nameClass}>
-        <button id="btn-mobile" aria-expanded="false" onClick={handleClick}>
+        <button type="button" id="btn-mobile" aria-expanded="false" onClick={handleClick}>
           Menu
-          <span id="hamburger"></span>
+          <span id="hamburger" />
         </button>
         <ul id="menu">
           {menuList.map(({ id, to, name }) => (

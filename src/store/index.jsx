@@ -1,42 +1,42 @@
 export const projects = [
   {
     id: 1,
-    title: `Quitandas Online`,
+    title: 'Quitandas Online',
     subtitle: 'Página estática',
     imgPath: '/images/quitanda.png',
     moreInfo: 'https://quitandasonline.netlify.app/',
   },
   {
     id: 2,
-    title: `Recipes App`,
+    title: 'Recipes App',
     subtitle: 'OverHooked',
     imgPath: '/images/hover-hooked.png',
     moreInfo: 'https://overhooked.netlify.app/',
   },
   {
     id: 3,
-    title: `DS Vendas`,
+    title: 'DS Vendas',
     subtitle: 'Dashboard para análise de dados',
     imgPath: '/images/dsvendas.png',
     moreInfo: 'https://dsvendas-marques.netlify.app/',
   },
   {
     id: 4,
-    title: `Electrum`,
+    title: 'Electrum',
     subtitle: 'Página estática',
     imgPath: '/images/electrum.png',
     moreInfo: 'https://e-lectrum.netlify.app/',
   },
   {
     id: 5,
-    title: `Online Store`,
+    title: 'Online Store',
     subtitle: 'Usando API do Mercado Livre',
     imgPath: '/images/online-store.png',
     moreInfo: 'https://github.com/renatomak/online-store',
   },
   {
     id: 6,
-    title: `Monty Hall`,
+    title: 'Monty Hall',
     subtitle: 'Jogo: Porta Premiada',
     imgPath: '/images/monty-hall.png',
     moreInfo: 'https://portapremiada.netlify.app/',
@@ -104,7 +104,7 @@ export const experience = [
     company: 'Atento Brasil',
     occupation: 'Call Center',
     abstract: {
-      resume: `Atendimento receptivo ao Cliente da operadora Vivo.`,
+      resume: 'Atendimento receptivo ao Cliente da operadora Vivo.',
       activities: [
         'Resolução de problemas diversos nas linhas de telefone dos clientes;',
         'Oferta de produtos sugeridos para as linhas.',
@@ -117,7 +117,7 @@ export const experience = [
     company: 'Oficina Digital - CRAS J. Curitiba',
     occupation: 'Instrutor de Informática',
     abstract: {
-      resume: `Ensino de Informática Básica a pessoas de todas as idades.`,
+      resume: 'Ensino de Informática Básica a pessoas de todas as idades.',
       activities: [
         'Fundamentos de Hardware e Software;',
         'Windows e Internet Explorer',
@@ -133,7 +133,7 @@ export const formation = [
     company: 'FASAN - Faculdade Sul-Americana',
     occupation: 'Administração em Análise de Sistemas',
     abstract: {
-      resume: `Com duração de 4 anos e foram abordadas matérias como:`,
+      resume: 'Com duração de 4 anos e foram abordadas matérias como:',
       activities: [
         'Administração de empresas;',
         'Sistemas de Informação;',
@@ -153,7 +153,7 @@ export const education = [
     company: 'Trybe',
     occupation: 'Desenvolvimento Web Full Stack',
     abstract: {
-      resume: `São mais de 1500 horas de formação que abordam:`,
+      resume: 'São mais de 1500 horas de formação que abordam:',
       activities: [
         'Fundamentos de desenvolvimento web;',
         'Desenvolvimento Front-end;',

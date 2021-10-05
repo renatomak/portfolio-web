@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const ContatoContainer = styled.div`
+const Container = styled.div`
   line-height: 50px;
 
   animation-name: conteudo;
   animation-duration: 2s;
-  
+
   h3 {
     color: var(--orange);
     text-transform: uppercase;
@@ -20,20 +20,22 @@ export const ContatoContainer = styled.div`
     margin: 1.2rem;
     font-size: 2rem;
     color: var(--orangeLite);
-    transition: .4s;
+    transition: 0.4s;
   }
   .social-img:hover {
     color: var(--orange);
   }
 
   @keyframes conteudo {
-  0% {
-    opacity: 0;
-    transform: translate(-1.2rem, 0px);
+    0% {
+      opacity: 0;
+      transform: translate(-1.2rem, 0px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0px, 0px);
+    }
   }
-  100% {
-    opacity: 1;
-    transform: translate(0px, 0px);
-  }
-}
 `;
+
+export default Container;

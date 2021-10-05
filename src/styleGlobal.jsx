@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
- 
+
 const GlobalStyle = createGlobalStyle`
   *, html {
     margin: 0;
@@ -45,8 +45,7 @@ export const MainContainer = styled.div`
       font-size: 0.9rem;
       text-align: center;
     }
-
   }
 `;
- 
+
 export default GlobalStyle;

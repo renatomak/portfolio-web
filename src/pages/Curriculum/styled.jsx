@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Container = styled.div`
+const Container = styled.div`
   line-height: 50px;
 
   animation-name: conteudo;
@@ -19,9 +19,10 @@ export const Container = styled.div`
   .title {
     color: var(--orange);
   }
-  section, article {
+  section,
+  article {
     color: var(--white);
   }
-
-
 `;
+
+export default Container;

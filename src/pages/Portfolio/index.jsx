@@ -2,7 +2,7 @@ import React from 'react';
 import GoBack from '../components/GoBack';
 import { projects } from '../../store';
 import Carousel from './Carousel';
-import { Container } from './styled';
+import Container from './styled';
 
 function Portfolio() {
   return (

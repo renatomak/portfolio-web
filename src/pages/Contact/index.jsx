@@ -1,13 +1,14 @@
-import React from "react";
-import { GoMarkGithub } from "react-icons/go";
-import { ImLinkedin } from "react-icons/im";
-import { ContatoContainer } from "./styled";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { GoMarkGithub } from 'react-icons/go';
+import { ImLinkedin } from 'react-icons/im';
+import Container from './styled';
 
 const Contact = (props) => {
   const { size } = props;
   return (
     <>
-      <ContatoContainer className="main" style={{fontSize: {size}}}>
+      <Container className="main" style={{ fontSize: { size } }}>
         <h3>E-mail:</h3>
         <p>renato.mark.silva@gmail.com</p>
 
@@ -33,9 +34,13 @@ const Contact = (props) => {
         >
           <ImLinkedin />
         </a>
-      </ContatoContainer>
+      </Container>
     </>
   );
 };
 
 export default Contact;
+
+Contact.propTypes = {
+  size: PropTypes.number.isRequired,
+};

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const CardContainer = styled.div`
   line-height: 2rem;
@@ -9,9 +9,9 @@ export const CardContainer = styled.div`
   justify-content: space-around;
 
   @media (max-width: 600px) {
-   display: block;
-   margin: 0;
-   margin-bottom: 1rem;
+    display: block;
+    margin: 0;
+    margin-bottom: 1rem;
   }
 `;
 

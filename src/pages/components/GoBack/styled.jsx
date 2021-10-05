@@ -1,8 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Container = styled.div`
+const Container = styled.div`
   a {
     color: var(--orange);
     font-weight: 400px;
   }
 `;
+
+export default Container;
