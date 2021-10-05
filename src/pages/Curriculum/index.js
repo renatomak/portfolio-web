@@ -1,5 +1,5 @@
 import React from 'react';
-import LinkVoltar from '../components/LinkVoltar';
+import GoBack from '../components/GoBack';
 
 
 import {
@@ -36,7 +36,7 @@ function Curriculum() {
         <Experience content={item} />
       ))}
 
-      <LinkVoltar />
+      <GoBack />
     </Container>
   );
 }

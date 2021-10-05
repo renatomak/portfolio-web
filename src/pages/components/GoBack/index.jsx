@@ -1,14 +1,13 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { ALink } from "./styled";
+import { Container } from "./styled";
 import { ImArrowLeft } from 'react-icons/im'
 
-function LinkVoltar() {
+function GoBack() {
   return (
-    <ALink>
+    <Container>
       <Link to="/"><ImArrowLeft /> Voltar ao início</Link>
-    </ALink>
+    </Container>
   );
 }
 
-export default LinkVoltar;
+export default GoBack;

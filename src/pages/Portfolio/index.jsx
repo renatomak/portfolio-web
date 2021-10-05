@@ -1,5 +1,5 @@
 import React from 'react';
-import LinkVoltar from '../components/LinkVoltar';
+import GoBack from '../components/GoBack';
 import { projects } from '../../store';
 import Carousel from './Carousel';
 import { Container } from './styled';
@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <Container>
       <Carousel projects={projects} />
-      <LinkVoltar />
+      <GoBack />
     </Container>
   );
 }
