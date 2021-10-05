@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-  line-height: 30px;
-  margin-top: 30px;
+  line-height: 2rem;
+  margin-top: 2rem;
   margin-bottom: 50px;
   width: 100%;
   display: flex;
@@ -11,13 +11,13 @@ export const CardContainer = styled.div`
   @media (max-width: 600px) {
    display: block;
    margin: 0;
-   margin-bottom: 15px;
+   margin-bottom: 1rem;
   }
 `;
 
 export const CardLeft = styled.div`
   width: 30%;
-  color: white;
+  color: var(--white);
   @media (max-width: 600px) {
     width: 100%;
   }
@@ -25,14 +25,14 @@ export const CardLeft = styled.div`
 
 export const CardRight = styled.div`
   width: 70%;
-  .funcao {
-    color: #f27609;
+  .occupation {
+    color: var(--orange);
     font-weight: 400;
     font-size: 2rem;
   }
 
-  article {
-    margin: 20px;
+  section {
+    margin: 1.2rem;
     text-align: justify;
   }
 
@@ -41,11 +41,11 @@ export const CardRight = styled.div`
   }
 
   h3 {
-    color: #5c5a5a;
+    color: var(--grayLite);
   }
   @media (max-width: 600px) {
     width: 100%;
-    .funcao {
+    .occupation {
       font-size: 1.5rem;
     }
   }

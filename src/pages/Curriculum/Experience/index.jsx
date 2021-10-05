@@ -12,17 +12,17 @@ const Experience = ({content}) => {
           </CardLeft>
           <CardRight>
             <h3>{company}</h3>
-            <p className="funcao">
+            <p className="occupation">
               {occupation}
             </p>
-            <article>
+            <section>
               { resume }
             <ul>
                 {activities.map((item, index) => (
                     <li key={index}>{item}</li>
                 ))}
             </ul>
-            </article>
+            </section>
           </CardRight>
         </CardContainer>
     );

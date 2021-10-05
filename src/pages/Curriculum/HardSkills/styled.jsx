@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   hr {
     width: 50%;
@@ -11,7 +11,7 @@ export const Container = styled.div`
 
   ul {
     margin-left: 50px;
-    line-height: 30px;
+    line-height: 2rem;
   }
   @media (max-width: 600px) {
     flex-direction: column;
@@ -20,10 +20,10 @@ export const Container = styled.div`
 
 export const Software = styled.div`
   width: 50%;
-  margin-left: 20px;
+  margin-left: 1.2rem;
 `;
 
 export const ProgrammingLanguages = styled.div`
   width: 50%;
-  margin-right: 20px;
+  margin-right: 1.2rem;
 `;

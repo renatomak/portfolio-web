@@ -9,7 +9,7 @@ export const Container = styled.div`
   @keyframes conteudo {
     0% {
       opacity: 0;
-      transform: translate(-20px, 0px);
+      transform: translate(-1.2rem, 0px);
     }
     100% {
       opacity: 1;
@@ -19,7 +19,7 @@ export const Container = styled.div`
   .title {
     color: var(--orange);
   }
-  article {
+  section, article {
     color: var(--white);
   }
 

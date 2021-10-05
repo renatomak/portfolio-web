@@ -11,7 +11,7 @@ export const Container = styled.div`
   @keyframes content {
     0% {
       opacity: 0;
-      transform: translate(-20px, 0px);
+      transform: translate(-1.2rem, 0px);
     }
     100% {
       opacity: 1;

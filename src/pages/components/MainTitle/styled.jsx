@@ -6,7 +6,7 @@ export const Container = styled.div`
 
   img {
     border-radius: 100%;
-    margin-right: 30px;
+    margin-right: 2rem;
     animation-name: photograph;
     animation-duration: 2s;
   }
@@ -14,11 +14,11 @@ export const Container = styled.div`
   @keyframes photograph {
     0% {
       opacity: 0;
-      transform: translate(0px, 20px);
+      transform: translate(0, 1.2rem);
     }
     100% {
       opacity: 1;
-      transform: translate(0px, 0px);
+      transform: translate(0, 0);
     }
   }
 `;
@@ -57,7 +57,7 @@ export const Describe = styled.div`
   @keyframes main-title {
     0% {
       opacity: 0;
-      transform: translate(0px, -20px);
+      transform: translate(0px, -1.2rem);
     }
     100% {
       opacity: 1;

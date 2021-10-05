@@ -17,7 +17,7 @@ export const ContatoContainer = styled.div`
   }
 
   .social-img {
-    margin: 20px;
+    margin: 1.2rem;
     font-size: 2rem;
     color: var(--orangeLite);
     transition: .4s;
@@ -29,7 +29,7 @@ export const ContatoContainer = styled.div`
   @keyframes conteudo {
   0% {
     opacity: 0;
-    transform: translate(-20px, 0px);
+    transform: translate(-1.2rem, 0px);
   }
   100% {
     opacity: 1;

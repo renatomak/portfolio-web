@@ -67,12 +67,12 @@ a:hover {
     }
     #hamburger {
         border-top: 2px solid var(--orange);
-        width: 20px;
+        width: 1.2rem;
     }
     #hamburger::after, #hamburger::before {
         content: '';
         display: block;
-        width: 20px;
+        width: 1.2rem;
         height: 2px;
         background:var(--orange);
         margin-top: 5px;
