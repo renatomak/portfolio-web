@@ -18,15 +18,15 @@ const index = (props) => {
         shift: 0,
       }}
     >
-      {props.projects.map((item) => (
-        <div className="flip-container">
+      {props.projects.map(({id, imgPath, title, subtitle, moreInfo}) => (
+        <div className="flip-container" key={id}>
           <div className="flipper">
-            <img src={item.imgPath} alt="imagem da aplicação" />
+            <img src={imgPath} alt="imagem da aplicação" />
           </div>
           <div className="text-hover">
-            <h1>{item.title}</h1>
-            <h2>{item.subtitle}</h2>
-            <a href={item.moreInfo} rel="noreferrer" target="_blank">
+            <h1>{title}</h1>
+            <h2>{subtitle}</h2>
+            <a href={moreInfo} rel="noreferrer" target="_blank">
               <h3>Acesse aqui</h3>
             </a>
           </div>
