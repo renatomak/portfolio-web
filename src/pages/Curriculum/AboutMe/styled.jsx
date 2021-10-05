@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Text = styled.div`
+export const Article = styled.article`
   width: 70%;
   text-align: justify;
   margin-left: 30px;
