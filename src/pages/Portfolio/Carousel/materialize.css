@@ -73,7 +73,7 @@
   left: 0;
 }
 
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 600px) {
   .text-hover {
     width: 95%;
     height: 20vh;

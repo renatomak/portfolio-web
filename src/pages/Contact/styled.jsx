@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const ContatoContainer = styled.div`
-  /* margin-left: 150px; */
-  /* margin-bottom: 3rem; */
   line-height: 50px;
 
   animation-name: conteudo;
@@ -16,13 +14,16 @@ export const ContatoContainer = styled.div`
   p {
     color: var(--orangeLite);
     font-weight: 300;
-    /* font-size: 2rem; */
   }
 
   .social-img {
     margin: 20px;
-    /* font-size: 3rem; */
+    font-size: 2rem;
     color: var(--orangeLite);
+    transition: .4s;
+  }
+  .social-img:hover {
+    color: var(--orange);
   }
 
   @keyframes conteudo {

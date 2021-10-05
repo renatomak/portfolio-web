@@ -4,7 +4,7 @@ const GlobalStyle = createGlobalStyle`
   *, html {
     margin: 0;
     padding: 0;
-  }
+  };
   body {
     background-color: var(--background);
     font-family: "Montserrat", sans-serif;
@@ -38,7 +38,7 @@ export const MainContainer = styled.div`
     .main-title h1 {
       font-size: 1.5rem;
     }
-    .main-title h2{
+    .main-title h2 {
       font-size: 1.2rem;
     }
     .main-title h3 {

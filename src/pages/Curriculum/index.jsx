@@ -1,7 +1,5 @@
 import React from 'react';
 import GoBack from '../components/GoBack';
-
-
 import {
   Container
 } from './styled';
