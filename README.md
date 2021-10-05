@@ -1,6 +1,6 @@
 # Portfolio Web
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/renatomak/monty-hall/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/renatomak/portfolio-web/blob/master/LICENSE)
 
 
 # Sobre o projeto
