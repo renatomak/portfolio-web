@@ -16,7 +16,7 @@ const List = ({ list, title }) => (
 
 List.propTypes = {
   title: PropTypes.string.isRequired,
-  list: PropTypes.shape().isRequired,
+  list: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default List;
