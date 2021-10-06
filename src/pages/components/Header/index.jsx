@@ -17,7 +17,7 @@ function Header() {
     else setNameClass('');
   };
   return (
-    <header id="header">
+    <header id="header" data-testid="header">
       <a id="logo" href="/">
         {/* Logo */}
       </a>
@@ -28,7 +28,7 @@ function Header() {
         </button>
         <ul id="menu">
           {menuList.map(({ id, to, name }) => (
-            <li key={id}>
+            <li key={id} data-testid={name}>
               <Link to={to} onClick={handleClick}>
                 {name}
               </Link>

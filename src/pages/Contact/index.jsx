@@ -10,12 +10,12 @@ const Contact = (props) => {
     <>
       <Container className="main" style={{ fontSize: { size } }}>
         <h3>E-mail:</h3>
-        <p>renato.mark.silva@gmail.com</p>
+        <p data-testid="email">renato.mark.silva@gmail.com</p>
 
         <h3>Telefone:</h3>
-        <p>(062) 9 9464-4482</p>
+        <p data-testid="phone">(062) 9 9464-4482</p>
 
-        <h3>Redes Sociais:</h3>
+        <h3 data-testid="social">Redes Sociais:</h3>
         <a
           className="social-img"
           rel="noreferrer"

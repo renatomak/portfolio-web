@@ -9,8 +9,8 @@ const MainTitle = ({ image, marginTop }) => (
     </div>
     <Describe>
       <h1 data-testid="title">Desenvolvedor Web</h1>
-      <h2>Renato Marques</h2>
-      <h3>
+      <h2 data-testid="sub-title">Renato Marques</h2>
+      <h3 data-testid="hard-skills">
         HTML | CSS | JavaScript | React | NodeJS | MySQL | MongoDB | Python
       </h3>
     </Describe>

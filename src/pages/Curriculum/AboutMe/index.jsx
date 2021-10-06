@@ -10,7 +10,7 @@ function AboutMe() {
         <Contact size="1rem" />
       </div>
       <Article>
-        <h2 className="title">Sobre Mim</h2>
+        <h2 className="title" data-testid="about-me">Sobre Mim</h2>
         <hr />
         <div>
           Com experiências anteriores, descobri que gosto de lidar com pessoas e
