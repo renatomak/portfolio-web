@@ -43,7 +43,7 @@ export const projects = [
   },
 ];
 
-export const abilities = [
+export const skills = [
   'Excel',
   'Word',
   'PowerPoint',

@@ -14,4 +14,13 @@ describe('Component Curriculum', () => {
     expect(curriculum.getByText(/sobre mim/i)).toBeInTheDocument();
     expect(curriculum.getByTestId('abstract')).toBeInTheDocument();
   });
+  test('1.1 - About me', () => {
+    const curriculum = render(
+      <MemoryRouter initialEntries={['/curriculum']} initialIndex={0}>
+        <Routes />
+      </MemoryRouter>
+    );
+    expect(curriculum.getByText(/sobre mim/i)).toBeInTheDocument();
+    expect(curriculum.getByTestId('abstract')).toBeInTheDocument();
+  });
 });
