@@ -13,13 +13,13 @@ const Experience = ({ content }) => {
   return (
     <CardContainer>
       <CardLeft>
-        <h3>{period}</h3>
+        <h3 data-testid="period">{period}</h3>
         <p>(Goiânia-GO)</p>
       </CardLeft>
       <CardRight>
-        <h3>{company}</h3>
-        <p className="occupation">{occupation}</p>
-        <section>
+        <h3 data-testid="company">{company}</h3>
+        <p className="occupation" data-testid="occupation">{occupation}</p>
+        <section data-testid="resume">
           {resume}
           <ul>
             {activities.map((item) => (

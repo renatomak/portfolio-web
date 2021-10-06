@@ -14,19 +14,19 @@ function Curriculum() {
       <AboutMe />
       <HardSkills />
 
-      <h2 className="title">Experiência de Trabalho</h2>
+      <h2 className="title" data-testid="work-experience">Experiência de Trabalho</h2>
       <hr />
       {experience.map((item) => (
         <Experience content={item} key={item.id} />
       ))}
 
-      <h2 className="title">Formação acadêmica</h2>
+      <h2 className="title" data-testid="academic-education">Formação acadêmica</h2>
       <hr />
       {formation.map((item) => (
         <Experience content={item} key={item.id} />
       ))}
 
-      <h2 className="title">Cursos</h2>
+      <h2 className="title" data-testid="courses">Cursos</h2>
       <hr />
       {education.map((item) => (
         <Experience content={item} key={item.id} />
