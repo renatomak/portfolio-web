@@ -42,5 +42,5 @@ const Contact = (props) => {
 export default Contact;
 
 Contact.propTypes = {
-  size: PropTypes.number.isRequired,
+  size: PropTypes.string.isRequired,
 };

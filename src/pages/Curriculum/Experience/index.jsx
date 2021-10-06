@@ -36,11 +36,10 @@ export default Experience;
 
 Experience.propTypes = {
   content: PropTypes.shape({
-    id: PropTypes.string.isRequired,
     period: PropTypes.string.isRequired,
     local: PropTypes.string.isRequired,
     company: PropTypes.string.isRequired,
     occupation: PropTypes.string.isRequired,
-    abstract: PropTypes.string.isRequired,
+    abstract: PropTypes.shape.isRequired,
   }).isRequired,
 };

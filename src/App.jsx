@@ -8,18 +8,22 @@ import GlobalStyle, { MainContainer } from './styleGlobal';
 import './colors.css';
 import Contact from './pages/Contact';
 
+export const Routes = () => (
+  <Switch>
+    <Route exact path="/" component={Home} />
+    <Route path="/contact" component={Contact} />
+    <Route path="/curriculum" render={() => <Curriculum />} />
+    <Route path="/portfolio" component={Portfolio} />
+  </Switch>
+);
+
 function App() {
   return (
     <Router>
       <GlobalStyle />
       <Header />
       <MainContainer>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/curriculum" render={() => <Curriculum />} />
-          <Route path="/portfolio" component={Portfolio} />
-        </Switch>
+        <Routes />
       </MainContainer>
     </Router>
   );

@@ -68,6 +68,7 @@ export const languages = [
 ];
 export const experience = [
   {
+    id: 1,
     period: 'De Setembro/2008 - até a presente data',
     local: '(Goiânia-GO)',
     company: 'SMS/Maternidade Nascer Cidadão',
@@ -83,6 +84,7 @@ export const experience = [
     },
   },
   {
+    id: 2,
     period: 'De Janeiro/2008 a Setembro/2015',
     local: '(Goiânia-GO)',
     company: 'SMS/Maternidade Nascer Cidadão',
@@ -99,6 +101,7 @@ export const experience = [
     },
   },
   {
+    id: 3,
     period: 'De Agosto/2008 a Junho/2009',
     local: '(Goiânia-GO)',
     company: 'Atento Brasil',
@@ -112,6 +115,7 @@ export const experience = [
     },
   },
   {
+    id: 4,
     period: 'De Agosto/2005 a Junho/2009',
     local: '(Goiânia-GO)',
     company: 'Oficina Digital - CRAS J. Curitiba',
@@ -128,6 +132,7 @@ export const experience = [
 ];
 export const formation = [
   {
+    id: 1,
     period: 'De Janeiro/2005 a Novembro/2009',
     local: '(Goiânia-GO)',
     company: 'FASAN - Faculdade Sul-Americana',
@@ -148,6 +153,7 @@ export const formation = [
 ];
 export const education = [
   {
+    id: 1,
     period: 'De Agosto/2020 a Agosto/2021',
     local: '(Remoto)',
     company: 'Trybe',
@@ -165,6 +171,7 @@ export const education = [
     },
   },
   {
+    id: 2,
     period: 'De Março/2016 a Abril/2016',
     local: '(Remoto)',
     company: 'Coursera/ITA',

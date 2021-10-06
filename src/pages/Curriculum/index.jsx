@@ -17,19 +17,19 @@ function Curriculum() {
       <h2 className="title">Experiência de Trabalho</h2>
       <hr />
       {experience.map((item) => (
-        <Experience content={item} />
+        <Experience content={item} key={item.id} />
       ))}
 
       <h2 className="title">Formação acadêmica</h2>
       <hr />
       {formation.map((item) => (
-        <Experience content={item} />
+        <Experience content={item} key={item.id} />
       ))}
 
       <h2 className="title">Cursos</h2>
       <hr />
       {education.map((item) => (
-        <Experience content={item} />
+        <Experience content={item} key={item.id} />
       ))}
 
       <GoBack />

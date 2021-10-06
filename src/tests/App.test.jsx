@@ -2,11 +2,11 @@ import React from 'react';
 import App from '../App';
 import '@testing-library/jest-dom/extend-expect';
 import '@testing-library/jest-dom';
-import { render, fireEvent, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import renderWithRouter from './renderWithRouter';
 
 
-describe('App - checking the routes', () => {
+describe('App', () => {
     test('1.1 - checking route "/"', () => {
         const { getByTestId } = renderWithRouter(<App />, "/");
         const title = getByTestId('title');
@@ -33,5 +33,5 @@ describe('App - checking the routes', () => {
     expect(curriculum).toBeInTheDocument();
     expect(contact).toBeInTheDocument();
     expect(pathname).toBe('/');
-  });  
+  });
 });

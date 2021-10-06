@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 
 const menuList = [
-  { id: 1, to: '/', name: 'Home' },
-  { id: 2, to: '/portfolio', name: 'Portfolio' },
-  { id: 3, to: '/curriculum', name: 'Curriculum' },
-  { id: 4, to: '/contact', name: 'Contact' },
+  { id: 1, to: '/', name: 'home' },
+  { id: 2, to: '/portfolio', name: 'portfolio' },
+  { id: 3, to: '/curriculum', name: 'curriculum' },
+  { id: 4, to: '/contact', name: 'contact' },
 ];
 
 function Header() {
@@ -28,8 +28,8 @@ function Header() {
         </button>
         <ul id="menu">
           {menuList.map(({ id, to, name }) => (
-            <li key={id} data-testid={name}>
-              <Link to={to} onClick={handleClick}>
+            <li key={id}>
+              <Link to={to} onClick={handleClick} data-testid={name}>
                 {name}
               </Link>
             </li>

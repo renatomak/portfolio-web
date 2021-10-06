@@ -8,6 +8,11 @@ const Container = styled.div`
   animation-name: content;
   animation-duration: 2s;
 
+  .title {
+    color: var(--orange);
+    font-size: 2rem;
+  }
+
   @keyframes content {
     0% {
       opacity: 0;
