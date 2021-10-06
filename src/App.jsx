@@ -11,9 +11,9 @@ import Contact from './pages/Contact';
 export const Routes = () => (
   <Switch>
     <Route exact path="/" component={Home} />
-    <Route path="/contact" component={Contact} />
-    <Route path="/curriculum" render={() => <Curriculum />} />
-    <Route path="/portfolio" component={Portfolio} />
+    <Route path="/contact" render={() => <Contact size="" />} />
+    <Route path="/curriculum" component={Curriculum} />
+    <Route path="/portfolio" render={() => <Portfolio size="" />} />
   </Switch>
 );
 

@@ -6,7 +6,7 @@ import Container from './styled';
 
 function Portfolio() {
   return (
-    <Container>
+    <Container data-testid="container-portfolio">
       <h1 className="title">Projetos</h1>
       <Carousel projects={projects} />
       <GoBack />

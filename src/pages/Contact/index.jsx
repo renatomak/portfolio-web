@@ -8,7 +8,7 @@ const Contact = (props) => {
   const { size } = props;
   return (
     <>
-      <Container className="main" style={{ fontSize: { size } }}>
+      <Container className="main" style={{ fontSize: { size } }} data-testid="container-contact">
         <h3>E-mail:</h3>
         <p data-testid="email">renato.mark.silva@gmail.com</p>
 
