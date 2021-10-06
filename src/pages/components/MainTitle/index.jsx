@@ -8,7 +8,7 @@ const MainTitle = ({ image, marginTop }) => (
       <img src={image} alt="Foto Renato Marques" width="300px" />
     </div>
     <Describe>
-      <h1>Desenvolvedor Web</h1>
+      <h1 data-testid="title">Desenvolvedor Web</h1>
       <h2>Renato Marques</h2>
       <h3>
         HTML | CSS | JavaScript | React | NodeJS | MySQL | MongoDB | Python
